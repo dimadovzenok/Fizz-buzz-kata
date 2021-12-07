@@ -17,5 +17,11 @@ class fizzbuzzkataTest {
 		fizzbuzzkata fizz = new fizzbuzzkata();
 		assertEquals("0", fizz.fizbuzkat(0));
 	}
+	
+	@Test
+    public void FizzforMultipledThree(){
+		fizzbuzzkata fizz = new fizzbuzzkata();
+        assertEquals(fizz.fizbuzkat(3), ("Fizz"));
+    }
 
 }
