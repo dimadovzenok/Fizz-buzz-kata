@@ -11,5 +11,12 @@ public class fizzbuzzkata {
 		}
 		return numbers;
 	}
+	
+	public String fizbuzkat(int val) {
+		if(val == 0){
+			return Integer.toString(val);
+		}
+		return Integer.toString(val);
+	}
 
 }
