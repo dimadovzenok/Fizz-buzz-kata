@@ -11,5 +11,11 @@ class fizzbuzzkataTest {
 		fizzbuzzkata fizz = new fizzbuzzkata();
 		assertEquals(100, fizz.getNumbers().length);
 	}
+	
+	@Test
+	public void Return0() {
+		fizzbuzzkata fizz = new fizzbuzzkata();
+		assertEquals("0", fizz.fizbuzkat(0));
+	}
 
 }
