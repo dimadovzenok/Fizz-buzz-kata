@@ -15,6 +15,8 @@ public class fizzbuzzkata {
 	public String fizbuzkat(int val) {
 		if(val == 0){
 			return Integer.toString(val);
+		}else if (val % 3 == 0) {
+			return "Fizz";
 		}
 		return Integer.toString(val);
 	}
