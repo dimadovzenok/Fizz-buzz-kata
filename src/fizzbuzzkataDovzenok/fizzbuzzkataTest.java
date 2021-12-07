@@ -29,5 +29,11 @@ class fizzbuzzkataTest {
 		fizzbuzzkata fizz = new fizzbuzzkata();
 		assertEquals(fizz.fizbuzkat(5), "Buzz");
 	}
+	
+	@Test
+	public void FizzBuzzFor15() {
+		fizzbuzzkata fizz = new fizzbuzzkata();
+		assertEquals(fizz.fizbuzkat(15), "FizzBuzz");
+	}
 
 }
